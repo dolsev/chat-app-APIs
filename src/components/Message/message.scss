@@ -1,0 +1,77 @@
+.component-message {
+  display: flex;
+  gap:8px;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width:51%;
+    gap:4px;
+
+    .name-surname {
+      font-weight: 700;
+      font-size: 15px;
+    }
+
+    .message-text-wrapper {
+      display: flex;
+      align-items: flex-start;
+      gap:12px;
+      border-radius: 4px;
+      background: #F3F3F3;
+      padding:8px 12px 8px 12px;
+
+      .message-text {
+        font-size:15px;
+        font-weight: 400;
+        color:#201F1E;
+      }
+
+      .time-block {
+        display: flex;
+        gap:8px;
+
+        .edited {
+          text-decoration-line: underline;
+          font-size: 12px;
+          color:#5B6888;
+        }
+
+        .time {
+          font-size: 12px;
+          color: #605E5C;
+        }
+      }
+    }
+  }
+
+  &.right {
+    justify-content: flex-end;
+
+    .container {
+      color: #fff;
+      max-width:51%;
+
+      .name-surname {
+        color: #000000;
+      }
+
+      .message-text-wrapper {
+        background: #407EC929;
+        padding:8px 12px 8px 12px;
+
+        .message-text {
+          color: #000;
+        }
+
+        .edited {
+          color: #fff;
+        }
+
+        .time {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

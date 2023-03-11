@@ -1,0 +1,13 @@
+.newMessage {
+  padding: 4px 12px;
+  background: rgba(64, 126, 201, 0.08);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap:wrap;
+  color:#407EC9;
+  height: 24px;
+  span{
+    width: 100%;
+  }
+}

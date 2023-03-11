@@ -1,0 +1,18 @@
+.systemMessage {
+  padding: 8px 12px;
+  width: 86px;
+  background: rgba(64, 126, 201, 0.08);
+  border-radius: 8px;
+  height: 32px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap:wrap;
+
+  .date {
+    text-align: center;
+    color: #201F1E;
+    font-size: 12px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,38 @@
+.component-chatItemList {
+  display: flex;
+  width: 360px;
+  padding: 12px 16px;
+  box-shadow: 0 4px 4px 0 #00000040;
+  gap:16px;
+  .Avatar {
+  }
+
+  .chatItemList__content {
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+
+    .chatItemList__container{
+    display: flex;
+    justify-content:space-between;
+    }
+    .chatItemList__name {
+      font-weight: 700;
+      font-size: 15px;
+      color: #201F1E
+
+    }
+    .chatItemList__time {
+      font-size: 13px;
+      color: #605E5C;
+
+    }
+    .chatItemList__message {
+      color: #605E5C;
+      font-size: 15px;
+    }
+
+  }
+
+
+}
