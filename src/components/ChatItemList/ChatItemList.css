@@ -1,0 +1,31 @@
+.component-chatItemList {
+  display: flex;
+  width: 360px;
+  padding: 12px 16px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2509803922);
+  gap: 16px;
+}
+.component-chatItemList .chatItemList__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.component-chatItemList .chatItemList__content .chatItemList__container {
+  display: flex;
+  justify-content: space-between;
+}
+.component-chatItemList .chatItemList__content .chatItemList__name {
+  font-weight: 700;
+  font-size: 15px;
+  color: #201F1E;
+}
+.component-chatItemList .chatItemList__content .chatItemList__time {
+  font-size: 13px;
+  color: #605E5C;
+}
+.component-chatItemList .chatItemList__content .chatItemList__message {
+  color: #605E5C;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=ChatItemList.css.map */
