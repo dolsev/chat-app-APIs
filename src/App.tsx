@@ -47,7 +47,6 @@ function App() {
                 <div>ПРОСТИТЕ, НО ДЛЯ МОБИЛЬНЫХ ТЕЛЕФОНОВ У НАС ЕСТЬ МОБИЛЬНОЕ ПРИЛОЖЕНИЕ</div>
             ) : (
                     <div className="App">
-                        <PageIndex />
                         <div className='chat-list-wrapper'>
                             <Header icon={false} text='All chats'/>
 
