@@ -5,7 +5,7 @@ interface SystemMessageProps {
     time: any;
 }
 
-export const SystemMessage: React.FC<SystemMessageProps> = ({ time }) => {
+ const SystemMessage: React.FC<SystemMessageProps> = ({ time }) => {
     return (
         <div className="systemMessage">
             <div className="date">{time}</div>

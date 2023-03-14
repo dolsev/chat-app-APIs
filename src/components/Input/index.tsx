@@ -1,11 +1,14 @@
-import React, { useState, useRef } from "react";
+import React, { useRef } from "react";
 import "./input.scss";
 
 
 export const Input = () => {
+/*
     const [message, setMessage] = useState("");
+*/
     const inputRef = useRef<HTMLDivElement>(null);
 
+/*
     const handleChange = (event: React.ChangeEvent<HTMLDivElement>) => {
         setMessage(event.target.innerText);
     };
@@ -16,8 +19,9 @@ export const Input = () => {
             setMessage("");
         }
     };
+*/
 
-    const handleButtonClick = (event: React.MouseEvent<HTMLButtonElement>) => {};
+    const handleButtonClick = () => {};
 
     return (
         <div className="input-component">
@@ -25,9 +29,8 @@ export const Input = () => {
                 <div
                     contentEditable
                     className="input"
-                    placeholder="Type message"
-                    onInput={handleChange}
-                    onKeyDown={handleKeyDown}
+/*                    onInput={handleChange}
+                    onKeyDown={handleKeyDown}*/
                     style={{ height: "80px" }}
                 />
 

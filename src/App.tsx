@@ -6,7 +6,6 @@ import './App.css'
 import {Message} from "./components/Message";
 import {Header} from "./components/Header";
 import {Input} from "./components/Input";
-import {SystemMessage} from "./components/SystemMessage";
 import {NewMessage} from "./components/NewMessage";
 import axios from "axios";
 
@@ -62,7 +61,7 @@ function App() {
                             {currentChatMessages.some((message:any) => message.is_new) && (
                                 <NewMessage />
                             )}
-                            {currentChatMessages.map((message:any, index:number) => (
+                            {currentChatMessages.map((message:any) => (
                                 <React.Fragment key={message.id}>
                                     <Message
                                         isNew={message.is_new}
