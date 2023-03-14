@@ -6,6 +6,6 @@ export const PageIndex: FC<IPage> = (props: IPage) => {
 
     return (
         <div>
-        </div>
+            Hello there        </div>
     )
 }
