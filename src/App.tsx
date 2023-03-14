@@ -1,6 +1,5 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import {PageIndex} from "./pages/index";
 import {ChatItemList} from "./components/ChatItemList";
 import './App.css'
 import {Message} from "./components/Message";
