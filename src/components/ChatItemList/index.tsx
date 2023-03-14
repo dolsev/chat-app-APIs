@@ -7,10 +7,9 @@ import {TIME} from "../TIME";
 export const ChatItemList: FC<IChatItemList> = (props: IChatItemList) => {
     const { src, chatName, message, time, setCurrentChatId, chatId } = props;
     const [hovered, setHovered] = useState(false);
-    const [selected, setSelected] = useState(false);
 
     const containerStyle = {
-        backgroundColor: selected ? "#ddd" : hovered ? "#acacde" : "#fff",
+        backgroundColor:  hovered ? "#acacde" : "#fff",
         cursor: hovered ? "pointer" : "default",
     };
 
